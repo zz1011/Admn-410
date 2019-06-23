@@ -1,0 +1,141 @@
+/* CSS Document */
+body{
+background:#999999;
+width:96%;
+padding:2px;
+margin-left:2%;
+margin-right:2%;
+margin-top:0px;
+}
+
+.holder{
+    
+	width:100%;
+	height:auto;
+	border:2px solid #0066FF;
+	float:left;
+	background-color: #f1f1f1;
+	border-radius:2px;
+	
+
+}
+
+.row{
+    
+	 width:100%;
+	 background-color:#FFFFFF;
+	
+	 
+	 
+	 
+
+}
+
+.column_nav{
+
+    width:15%;
+	float:left;
+	height:100%;
+	background-color: #f1f1f1;
+	margin-top:2px;
+	
+
+}
+
+
+.column_nav ul {
+  list-style-type: none;
+  margin: 0;
+ 
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  overflow: auto;
+}
+
+.column_nav li a {
+  display: block;
+  color: #990000;
+  padding: 16px 10px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.column_nav li a:hover {
+  background-color: #9999CC;
+  color: white;
+  border-left:2px solid white;
+}
+
+.body{
+       
+	   width:85%;
+	   
+	   float:left;
+	   margin-top:2px;
+	   
+	
+}
+
+.image_holder{
+
+     	width:100%;
+	    position: relative;
+  		text-align: center;
+  		color: white;
+	 
+}
+
+.image_holder img{
+
+   height:400px;
+
+}
+
+.text {
+  position: absolute;
+  bottom: 12px;
+  right: 45px;
+  font-size:25px;
+}
+
+
+p{
+  
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#0099CC;
+	font-size:20px;
+	
+
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width:100%;
+  margin-top:5px;
+  
+  
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.footer{
+   width:100%;
+   float:left;
+   background-color:#666666;
+   margin-left:0px;
+   text-align:center;
+
+}
+
+.footer hr{
+   
+   width:20%;
+
+}
+
+
